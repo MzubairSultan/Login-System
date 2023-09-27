@@ -45,6 +45,7 @@ if(isset($_POST['login']))
  if($total==1){
     $_SESSION['user_name'] =$email;
     header('location:profile.php');
+   echo $total;
  }
  else{
     echo "login Falied";

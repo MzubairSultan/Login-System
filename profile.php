@@ -22,6 +22,7 @@ else
 
     <body>
         <h1>Hi Profile page</h1>
+        <a href="logout.php">LogOut</a>
     </body>
 
     </html>
